@@ -10,17 +10,8 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:issue-ondidopentextdocument.helloWorld"
 	],
 	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "issue-ondidopentextdocument.helloWorld",
-				"title": "Hello World"
-			}
-		]
-	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
