@@ -1,5 +1,7 @@
 # Issue: `onDidOpenTextDocument` events
 
+**This is actually intendde behavior**
+
 During extension development I noticed that
 opening files with `openTextDocument`
 didn't always fire the `didOpenTextDocument` events I was expecting.
