@@ -1,6 +1,6 @@
 # Issue: `onDidOpenTextDocument` events
 
-**This is actually intendde behavior**
+## This is actually intended behavior
 
 During extension development I noticed that
 opening files with `openTextDocument`
